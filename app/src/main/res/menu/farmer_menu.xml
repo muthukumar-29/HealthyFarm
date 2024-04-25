@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/farm_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+        <item android:id="@+id/farm_add_product"
+            android:title="Add product"
+            android:icon="@drawable/farm_add_product"/>
+        <item android:id="@+id/farm_view_product"
+            android:title="View Product"
+            android:icon="@drawable/farm_view"/>
+        <item android:id="@+id/farm_orders"
+            android:title="Order Manage"
+            android:icon="@drawable/farm_order"/>
+<!--        <item android:id="@+id/farm_profile"-->
+<!--            android:title="Profile"-->
+<!--            android:icon="@drawable/profile_icon"/>-->
+        <item android:id="@+id/farm_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout_icon"/>
+    </group>
+</menu>
